@@ -1,0 +1,11 @@
+~/go/bin/MailHog
+
+
+ps aux | grep redis
+ kill -9 3405
+
+
+celery -A application.tasks.celery worker -l info
+
+
+celery -A application.tasks.celery beat --max-interval 1 -l info

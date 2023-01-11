@@ -1,0 +1,14 @@
+Flask
+Flask-SQLAlchemy
+flask-restful
+flask-security-too
+email_validator
+flask-cors
+flask_cors
+jwt
+uuid
+Flask-Caching
+redis
+jinja2
+celery[redis]
+weasyprint
